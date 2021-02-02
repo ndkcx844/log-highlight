@@ -1,0 +1,14 @@
+[package]
+name = "log-highlight"
+version = "0.1.0"
+authors = ["Kosuke Tanaka <kosuke.tanaka@fujixerox.co.jp>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pcre2 = "0"
+serde = "1"
+serde_derive = "1"
+toml = "0"
+regex = "*"
